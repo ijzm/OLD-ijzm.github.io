@@ -1,7 +1,15 @@
 html {
 	background-color: #1F1F1F;
 }
-#title > a {
+
+#title {
+	background-color: #C3C3C3;
+	display: block;
+	margin-left: 16%;
+	width: 20%;
+	height: 100px;
+	float: left;
+	
 	font-family:  bebas_neue_regularregular;
 	font-size: 5em;
 	font-style: normal;
@@ -9,17 +17,24 @@ html {
 	color: black;
 }
 
-#title {
-	background-color: #C3C3C3;
-	display: inline-block;
-	margin-left: 16%;
-	width: 20%
-}
 
-#navbar {
+#navbar {	
 	background-color: #C3C3C3;
 	display: inline-block;
-	margin-left: 1%;
+	margin-left	: 1%;
 	width: 40%;
+	height: 100px;
+	float: left;
 }
 
+#navbar > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+	
+}
+
+#navbar > ul > li {
+	font-family:  bebas_neue_regularregular;
+	display: inline;
+}

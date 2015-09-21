@@ -1,8 +1,25 @@
-div > a {
+html {
+	background-color: #1F1F1F;
+}
+#title > a {
 	font-family:  bebas_neue_regularregular;
 	font-size: 5em;
 	font-style: normal;
 	text-decoration: none;
 	color: black;
+}
+
+#title {
+	background-color: #C3C3C3;
+	display: inline-block;
+	margin-left: 16%;
+	width: 20%
+}
+
+#navbar {
+	background-color: #C3C3C3;
+	display: inline-block;
+	margin-left: 1%;
+	width: 40%;
 }
 

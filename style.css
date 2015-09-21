@@ -50,3 +50,30 @@ html {
 	background-color:  #7F7F7F;
 	height: 100%
 }
+
+#maintiles {
+	margin-left: 16%;
+	margin-right: 16%;
+	margin-top: 10%;
+	display: block;
+	float: left;
+	width: 68%;
+	overflow: auto;
+}
+
+#maintiles > #big {
+	width: 66%;
+	height: 300px;
+	display: block;	
+	background-color: #2997CC;
+}
+
+#smalltiles {
+	
+}
+
+#smalltiles > li {
+	width: 33%;
+	height: 100px;
+	background-color: #2997CC;
+}

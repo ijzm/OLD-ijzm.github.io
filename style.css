@@ -17,6 +17,9 @@ html {
 	color: black;
 }
 
+#title:hover {
+	background-color: #7F7F7F;
+}
 
 #navbar {	
 	background-color: #C3C3C3;

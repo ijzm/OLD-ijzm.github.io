@@ -6,6 +6,7 @@ html {
 	background-color: #C3C3C3;
 	display: block;
 	margin-left: 16%;
+	margin-top: 0;
 	width: 20%;
 	height: 100px;
 	float: left;
@@ -15,6 +16,7 @@ html {
 	font-style: normal;
 	text-decoration: none;
 	color: black;
+	text-align: center;
 }
 
 #title:hover {
@@ -23,21 +25,28 @@ html {
 
 #navbar {	
 	background-color: #C3C3C3;
-	display: inline-block;
+	display: block;
 	margin-left	: 1%;
+	margin-top: 0;
 	width: 40%;
 	height: 100px;
 	float: left;
-}
-
-#navbar > ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
 	
+	list-style-type: none;
+
+    padding: 0;
 }
 
-#navbar > ul > li {
+#navbar > li {
 	font-family:  bebas_neue_regularregular;
-	display: inline;
+	display: inline-block;
+	font-size: 5em;
+	height: 100%;
+
+
+}
+
+#navbar > li:hover {
+	background-color:  #7F7F7F;
+	height: 100%
 }

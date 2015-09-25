@@ -4,9 +4,9 @@ html {
 
 .navigation {
 	width: 100%;
-
+	height: auto;
 	border: none;
-	display: block;
+	display: inline-block;
 }
 
 #maintiles {

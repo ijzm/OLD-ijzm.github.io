@@ -1,5 +1,6 @@
 html {
 	background-color: #1F1F1F;
+	margin-left: 16%;
 }
 
 .navigation {
@@ -10,28 +11,29 @@ html {
 }
 
 #maintiles {
-	margin-left: 16%;
-	margin-top: 10%;
-	display: block;
-	float: left;
+	
+	display: inline-block;
 	width: 68%;
-	overflow: auto;
 }
 
 #maintiles > #big {
-	width: 66%;
+	width: 60%;
 	height: 300px;
 	display: inline-block;	
 	background-color: #2997CC;
+	margin-right: 10px;
 }
 
 #smalltiles {
-	
+	display: inline-block;
+	width: 30%;
 }
 
 #smalltiles > li {
-	width: 30%;
+	width: 100%;
 	height: 100px;
 	background-color: #2997CC;
-	display: inline-block;	
+	display: block;	
+	margin-bottom: 10px;
+	
 }

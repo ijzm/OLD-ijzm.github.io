@@ -1,6 +1,8 @@
 html {
 	background-color: #1F1F1F;
 	margin-left: 16%;
+	
+	
 }
 
 .navigation {
@@ -8,6 +10,7 @@ html {
 	height: auto;
 	border: none;
 	display: inline-block;
+	
 }
 
 #maintiles {
@@ -35,5 +38,19 @@ html {
 	background-color: #2997CC;
 	display: block;	
 	margin-bottom: 10px;
+	
+}
+
+.tiles {
+	width: 68%;
+	display: inline-block;
+	margin-bottom: 10px;
+}
+
+.tiles > li {
+	display: inline-block;
+	height: 100px;
+	width: 30%;
+	background-color: #154F6A;
 	
 }

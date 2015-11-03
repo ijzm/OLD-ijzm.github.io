@@ -1,13 +1,9 @@
 
-<ul class="nav navbar-nav navbar-right">
+<nav class="w3topnav w3-xxxlarge w3-grey">
   {% for nav_item in site.data.nav %}
-    {% if page.url == nav_item.link %}
-      <li class="active">
-    {% else %}
-      <li>
-    {% endif %}
       <a href="{{ nav_item.link }}">{{ nav_item.name }}</a>
-    </li>
   {% endfor %}
-</ul>
+</nav>
+
+
 

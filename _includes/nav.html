@@ -1,6 +1,12 @@
-{% for nav_item in site.data.nav %}
-	<nav class="w3topnav w3-xxxlarge w3-grey">
-		<a href="{{ nav_item.Home }}" target="_top">IJZM</a>
-		<a href="{{ nav_item.Games }}" target="_top">Games</a>
-		<a href="{{ nav_item.Blog }}" target="_top">Blog</a>
-	</nav>
+
+<ul class="nav navbar-nav navbar-right">
+  {% for nav_item in site.data.nav %}
+    {% if page.url == nav_item.link %}
+      <li class="active">
+    {% else %}
+      <li>
+    {% endif %}
+      <a href="{{ nav_item.link }}">{{ nav_item.name }}</a>
+    </li>
+  {% endfor %}
+</ul>

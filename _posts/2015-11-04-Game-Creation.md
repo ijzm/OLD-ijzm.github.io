@@ -12,11 +12,14 @@ What is not leting me make them?
 Simple question, hard answer:
 
 When I first started programming, was at the age of 12, with very little knowledge. I was using my school library's computers. In there, I used Adobe Flash CS3, and actionscript 2.0 to create my first prototypes.
+
 I wont go too long of what I did with those, they were just simple stuff that let me create code.
 Then... I met some awesome guys on the Internet, and we tryed to create some games, the first that comes to mind is one called Cat Dropped.
+
 At that time, because of my very poor knowledge on programming, the thing that didn't let me create games was basically my knowledge.
 
 Fast forward some years, age is 2015. It's summer, and as always, I am bored. I start wondering around some older files, and find the Cat Dropped file.
+
 I open it... and I must say... I was pretty Disgusted of myself. The code was poor quality, and really horrible to read. It took some work, and after just 3 days I managed to complete a version of Cat Dropped which I was proud.
 
 Great, I had created my game. I wanted people to see it, I wanted some feedback. But I couldn't publish it. The guy that made all the sprites, and had the idea of the game was long gone. I sent him lots of messages, on all the websites I could find, but months passed and still no answer.
@@ -40,4 +43,5 @@ Because.. creativity.. I cant simply get to make a story I like...
 I hope one day I complete all the projects i have laying around on my pc, but until now...
 
 Stay Updated!
+
 Ignacio Z
